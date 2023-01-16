@@ -1,0 +1,25 @@
+{
+    // terminal settings
+    "terminal.integrated.profiles.linux": {
+        "fish": {
+            "path": "fish"
+        },
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        }
+    },
+    "editor.formatOnSave": true,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "eslint.workingDirectories": [
+        "./client"
+    ],
+    "[javascript][javascriptreact][typescript][typescriptreact][json][jsonc][html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "eslint.format.enable": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true
+    },
+}
